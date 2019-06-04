@@ -188,5 +188,8 @@
 
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_single">SingleActivity</string>
+    <string name="title_activity_single2">SingleActivity2</string>
 
 </resources>

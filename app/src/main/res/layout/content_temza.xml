@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".ui.TemzaActivity"
+    tools:context=".userSide.googleApi.ui.TemzaActivity"
     tools:showIn="@layout/app_bar_temza">
 
    <FrameLayout
@@ -20,10 +20,5 @@
        app:layout_constraintLeft_toLeftOf="parent"
        app:layout_constraintRight_toRightOf="parent">
    </FrameLayout>
-
-    <!--<android.support.v7.widget.RecyclerView-->
-        <!--android:id="@+id/recycler_view"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent" />-->
 
 </android.support.constraint.ConstraintLayout>

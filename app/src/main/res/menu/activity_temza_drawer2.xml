@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_waiting"
+            android:icon="@drawable/ic_history"
+            android:title="В ожидании" />
+
+        <item
+            android:id="@+id/nav_process"
+            android:icon="@drawable/ic_local_shipping"
+            android:title="В пути" />
+
+        <item
+            android:id="@+id/nav_done"
+            android:icon="@drawable/ic_playlist_done"
+            android:title="Доставлено"
+            android:checkable="true"
+            app:actionViewClass="android.widget.TextView"
+            />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Настройки" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="О приложений" />
+    </group>
+
+    <item android:title="Аккаунт">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_account_circle_nav"
+                android:title="Личный кабинет" />
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit"
+                android:title="Выйти" />
+
+        </menu>
+    </item>
+
+</menu>
